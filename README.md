@@ -8,7 +8,7 @@ The implementation is mostly based on the [SciPy](https://github.com/scipy/scipy
 The optimization starts with population initialization by Random or Latin Hypercube type.
 At each step the algorithm creates trial candidates by changing existing solutions
 in accordance with mutation strategies and recombination property.
-If the trial individual is better then the original one, it takes its place.  
+If the trial individual is better than the original one, it takes its place.  
 The optimization continues until the iterations count is more than MaxIteration property
 or until the solver converges.
 
@@ -32,10 +32,10 @@ There are also two update types:
 
 ## Getting started:
 
-Firstly, it is necessary to determine the fitness function. For example, [Rosenbroke](https://en.wikipedia.org/wiki/Rosenbrock_function):
+Firstly, it is necessary to determine the fitness function. For example, [Rosenbrock](https://en.wikipedia.org/wiki/Rosenbrock_function):
 
 ```C#
-public static double Rosenbroke(
+public static double Rosenbrock(
     double [] variables, object [] args = null)
 {
     double result = 0;
