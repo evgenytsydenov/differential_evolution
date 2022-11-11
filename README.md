@@ -1,4 +1,4 @@
-﻿# Differential evolution algorithm
+# Differential evolution algorithm
 
 This is a .NET implementation of the differential evolution algorithm for global optimization of multivariable functions.
 The implementation is mostly based on the [SciPy](https://github.com/scipy/scipy/blob/v1.3.2/scipy/optimize/_differentialevolution.py) realization.
@@ -30,7 +30,7 @@ There are also two update types:
 - immediate (the best solution is updated continuously within a single iteration)
 - deferred (the best solution is updated once per generation)
 
-## Getting started:
+## Getting started
 
 Firstly, it is necessary to determine the fitness function. For example, [Rosenbrock](https://en.wikipedia.org/wiki/Rosenbrock_function):
 
